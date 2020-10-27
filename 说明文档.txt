@@ -1,0 +1,5 @@
+一个菜鸟搭建 .net core框架。
+附带学习core的记录。
+
+感谢零度编程的教程
+https://www.xcode.me。

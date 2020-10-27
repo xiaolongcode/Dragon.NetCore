@@ -20,7 +20,6 @@ namespace 文件系统服务
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
-
             app.Run(async context =>
             {
                 await context.Response.WriteAsync("Hello World!");

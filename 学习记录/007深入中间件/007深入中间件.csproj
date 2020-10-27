@@ -5,4 +5,8 @@
     <RootNamespace>_007深入中间件</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>

@@ -5,4 +5,8 @@
     <RootNamespace>_006中间件.管道.依赖注入</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>

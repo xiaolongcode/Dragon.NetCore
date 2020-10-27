@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Web", "Dragon.Web\Dragon.Web\Dragon.Web.csproj", "{DA6AC137-2164-487E-ADA9-108D799E2BDD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "代码案例", "代码案例", "{44251DDC-3543-4DA5-BA3A-91A37D4F9820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件系统服务", "文件系统服务\文件系统服务\文件系统服务.csproj", "{174D7E1A-36B8-4513-B5CA-2D49915D1395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{DA6AC137-2164-487E-ADA9-108D799E2BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA6AC137-2164-487E-ADA9-108D799E2BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA6AC137-2164-487E-ADA9-108D799E2BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174D7E1A-36B8-4513-B5CA-2D49915D1395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174D7E1A-36B8-4513-B5CA-2D49915D1395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174D7E1A-36B8-4513-B5CA-2D49915D1395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174D7E1A-36B8-4513-B5CA-2D49915D1395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{174D7E1A-36B8-4513-B5CA-2D49915D1395} = {44251DDC-3543-4DA5-BA3A-91A37D4F9820}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C327B527-0ABD-4D2F-9C25-47BDBC8703E7}

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Dragon.Web.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Dragon.Web.Controllers
 {
@@ -22,7 +23,6 @@ namespace Dragon.Web.Controllers
         {
             return View();
         }
-
         public IActionResult Privacy()
         {
             return View();
